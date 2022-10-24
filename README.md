@@ -1,2 +1,16 @@
-# sing-up-form
-Fromulario feito com tailwind.
+<h1 align="center">Sing Up Form</h1>
+
+<p align="center">Formulário sendo desenvolvido com o intuito de aprender o Tailwind CSS para aplicações futuras.
+
+<img src="./img/cover.png" align="center"/>
+
+#
+
+## Tecnologias
+- HTML5
+- CSS / Tailwind
+
+## Autor
+### Thiago Barreto R.
+
+<p align="center"> Feito com ❤️ para compartilhar conhecimento.</p>
