@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Form Sing Up</title>
+
+  <link rel="stylesheet" href="./styles.css">
+</head>
+<body class="flex items-center justify-center flex-col">
+  <img src="./img/rectangle2.svg" alt="retangulo" class="img1">
+  <Form class="flex items-center justify-center flex-col rounded-3xl">
+    <legend class="text-black text-3xl font-bold mb-4">Create An Account</legend>
+
+    <p class="text-center text-sm mb-9">Create an account to enjoy all the services<br/>without any ads for free!</p>
+
+    <div class="input mb-4">
+      <input type="email" name="email" id="email" autocomplete="email" required class="rounded-2xl">
+      <label for="email" class="">Email Address</label>
+    </div>
+
+    <div class="input mb-5">
+      <input type="password" name="password" id="password" autocomplete="none" required class="rounded-2xl">
+      <label for="password" class="">Password</label>
+    </div>
+
+    <button class="py-3.5 px-12 mb-2.5 rounded-2xl text-white">Create account</button>
+    <p>Already Have An Account? <a href="#">Sign In</a></p>
+  </Form>
+  <img src="./img/rectangle.svg" alt="retangulo" class="img2">
+
+  <script src="https://cdn.tailwindcss.com"></script>
+</body>
+</html>
